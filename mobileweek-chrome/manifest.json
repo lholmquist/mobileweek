@@ -1,0 +1,17 @@
+{
+    "name": "MobileWeek Chrome App",
+    "version": "2",
+    "manifest_version": 2,
+    "description": "MobileWeek Chrome Push example",
+    "icons": {
+        "16": "images/icon-16.png",
+        "128": "images/ag-128.png"
+    },
+    "app": {
+        "background": {
+          "scripts": ["scripts/main.js", "scripts/vendor/jquery.min.js", "scripts/vendor/aerogear.js"]
+        }
+    },
+    "permissions": ["pushMessaging","notifications"],
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhCio64Asup9YI+2UVu0v0ErWuN79WkXq4QTAPCFI4Hs57bCVkY/HF8z3Lc2fn5VJImZWCtPXZThyoc8rTrYOJAxe9F71I27g9INkyXKuLkd2kSsr+F4cwWDufH/qWYK7tccebNrkLMbv7DaiFeJcdeeriqd4d3Bi5GgR6rZ3MUtyZ3m89wvlSroxsVDgOrKU58rddISYmxb0IuTHCwZCaI8ZnfQTWIKUuxbZ5fSe3N7YExuIT25eo9tXXAEIG0aAGckjwIEcbjsSgP9BCyFPDkhsjWXT/FxAqmslPA0zMS1RKMuZWskTcVsQlCb9q4Iellqjhm21J4Zl5ad34s24zQIDAQAB"
+}
